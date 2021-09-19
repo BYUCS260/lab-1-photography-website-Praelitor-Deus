@@ -50,6 +50,14 @@ li:hover {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
+@media only screen and (max-width: 768px) {
+    .reviews-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 100px;
+    }
+}
 .review-item img{
     width: 100%;
 }
@@ -70,6 +78,14 @@ li:hover {
     grid-template: auto auto / 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 100px;
+    }
 }
 .portfolio-image img {
     width: 100%;
